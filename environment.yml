@@ -1,0 +1,11 @@
+name: cadna-tool
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.*
+  - pip
+  - pip:
+    - os
+    - tkinter
+    - tkinter.messagebox
